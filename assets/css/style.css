@@ -1,4 +1,74 @@
+/*-------------------*/
+/*----- CSS RESET ---*/
+/*-------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;;
+}
+/*-------------------*/
+/*----- HEADER ------*/
+/*-------------------*/
+#header {
+    position: absolute;
+    padding: 20px;
+}
 
+nav {
+    display: none;
+}
+
+/*-------------------*/
+/*----- HOME --------*/
+/*-------------------*/
+#home {
+    padding: 80px 20px;
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(151deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0 0 0 80px;
+}
+.home-title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 36px;
+}
+.home-content {
+    color: hsl(0, 0%, 100%);
+}
+.home-button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 22px;
+    width: 130px;
+    background: hsl(0, 0%, 100%);
+    color: hsl(353, 100%, 62%);
+    cursor: pointer;
+}
+.home-button.transparent {
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+
+/*-------------------*/
+/*----- DESIGN ------*/
+/*-------------------*/
+#design {
+    height: 500px;
+}
+.design-background {
+    background-image: url('../images/illustration-editor-desktop.svg');
+    background-position: -24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
 
 /*-------------------*/
 /*----- FOOTER ------*/
