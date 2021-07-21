@@ -76,25 +76,6 @@ nav {
     background: transparent;
 }
 /*-------------------*/
-/*----- DESIGN ------*/
-/*-------------------*/
-#design {
-    text-align: center;
-    padding: 40px 20px;
-}
-#design .title {
-    color: hsl(208, 49%, 24%);
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-.design-background {
-    background-image: url('../images/illustration-editor-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 331px;
-}
-/*-------------------*/
 /*----- RESUME ------*/
 /*-------------------*/
 #resume {
@@ -105,9 +86,17 @@ nav {
 #resume .title {
     color: hsl(208, 49%, 24%);
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
-#resume .content {
+.design-background {
+    background-image: url('../images/illustration-editor-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 331px;
+    margin-bottom: 40px;
+}
+.resume .content {
     color: hsl(207, 13%, 34%);
     line-height: 28px;
     margin-bottom: 40px;
@@ -131,6 +120,7 @@ nav {
 .background-state {
     height: 356px;
     width: 100%;
+    max-width: 579px;
     background: url('../images/illustration-phones.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -161,6 +151,7 @@ nav {
 }
 .background-laptop {
     height: 359px;
+    width: 100%;
     background: url('../images/illustration-laptop-mobile.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -215,4 +206,40 @@ nav {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+    /*-------------------*/
+    /*----- RESUME ------*/
+    /*-------------------*/
+    .resume-content {
+        display: flex;
+    }
+    .design-background {
+        order: 2;
+    }
+    /*-------------------*/
+    /*----- STATE -------*/
+    /*-------------------*/
+    #state {
+        display: flex;
+    }
+    .background-state {
+        position: relative;
+    }
+    /*-------------------*/
+    /*----- LAPTOP ------*/
+    /*-------------------*/
+    #laptop {
+        display: flex;
+    }
+    /*-------------------*/
+    /*----- FOOTER ------*/
+    /*-------------------*/
+    #footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+    }
 }
