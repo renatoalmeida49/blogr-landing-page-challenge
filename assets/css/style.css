@@ -79,6 +79,7 @@ nav {
     padding: 40px 20px;
 }
 #design .title {
+    color: hsl(208, 49%, 24%);
     font-size: 30px;
 }
 .design-background {
@@ -97,9 +98,11 @@ nav {
     margin-bottom: 160px;
 }
 #resume .title {
+    color: hsl(208, 49%, 24%);
     font-size: 30px;
 }
 #resume .content {
+    color: hsl(207, 13%, 34%);
     line-height: 28px;
 }
 /*-------------------*/
@@ -130,6 +133,7 @@ nav {
 /*-------------------*/
 #laptop {
     text-align: center;
+    margin-bottom: 40px;
 }
 .background-laptop {
     height: 552px;
@@ -138,10 +142,14 @@ nav {
     background-position: center;
 }
 #laptop .title {
+    color: hsl(208, 49%, 24%);
     font-size: 36px;
+    padding: 20px;
 }
 #laptop .content {
+    color: hsl(207, 13%, 34%);
     line-height: 28px;
+    padding: 20px;
 }
 /*-------------------*/
 /*----- FOOTER ------*/
@@ -154,8 +162,16 @@ nav {
     color: white;
     border-radius: 0 80px 0 0;
 }
+#footer img {
+    margin-bottom: 60px;
+}
+.footer-menu-header {
+    margin-bottom: 40px;
+}
 #footer ul {
     list-style: none;
+    margin-bottom: 60px;
+    color: hsl(240, 2%, 79%);
 }
 
 .attribution {
