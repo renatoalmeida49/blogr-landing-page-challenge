@@ -19,11 +19,12 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.button-mobile {
+    cursor: pointer;
+}
 nav {
     display: none;
 }
-
 /*-------------------*/
 /*----- HOME --------*/
 /*-------------------*/
@@ -119,7 +120,7 @@ nav {
     background-color: hsl(237, 17%, 21%);
     background-image: url('../images/bg-pattern-circles.svg');
     background-repeat: no-repeat;
-    background-position: top -220px left -101px;
+    background-position: top -220px left -130px;
     background-size: cover;
     color: white;
     border-radius: 0 80px 0 80px;
@@ -156,12 +157,14 @@ nav {
 #laptop {
     text-align: center;
     margin-bottom: 40px;
+    padding-top: 40px;
 }
 .background-laptop {
-    height: 552px;
+    height: 359px;
     background: url('../images/illustration-laptop-mobile.svg');
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 40px;
 }
 #laptop .title {
     color: hsl(208, 49%, 24%);
@@ -192,8 +195,14 @@ nav {
 }
 #footer ul {
     list-style: none;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     color: hsl(240, 2%, 79%);
+    font-size: 20px;
+}
+
+#footer ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .attribution {
