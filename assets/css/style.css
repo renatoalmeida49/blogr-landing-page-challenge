@@ -306,16 +306,20 @@ nav {
         align-items: center;
         z-index: 10;
         margin-bottom: 60px;
+        background-position: top -700px left -300px;
+        height: 440px;
     }
     .background-state {
-        position: relative;
-        top: 0;
+        top: -50px;
         z-index: 150;
         height: 579px;
     }
     #state .content {
         margin: 0;
         max-width: max-content;
+    }
+    #state .state-content {
+        margin-left: 50%;
     }
     /*-------------------*/
     /*----- LAPTOP ------*/
