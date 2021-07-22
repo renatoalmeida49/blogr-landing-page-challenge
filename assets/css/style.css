@@ -155,7 +155,7 @@ nav {
 /*-------------------*/
 #laptop {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding-top: 40px;
 }
 .background-laptop {
@@ -175,6 +175,9 @@ nav {
     color: hsl(207, 13%, 34%);
     line-height: 28px;
     padding: 20px;
+}
+#laptop .container-content {
+    margin-left: 50%;
 }
 /*-------------------*/
 /*----- FOOTER ------*/
@@ -260,19 +263,37 @@ nav {
         background: transparent;
     }
     /*-------------------*/
+    /*----- HOME --------*/
+    /*-------------------*/
+    .home-title {
+        font-size: 56px;
+    }
+    /*-------------------*/
     /*----- RESUME ------*/
     /*-------------------*/
     #resume {
         text-align: left;
+        position: relative;
+        background-image: url('../images/illustration-editor-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top 0 right -250px;
+        height: 882px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #resume .title.main {
+        font-size: 42px;
+        margin-bottom: 140px;
     }
     .resume-content {
-        display: flex;
+       
+        width: 100%;
+        max-width: 750px;
     }
     .design-background {
-        order: 2;
-        background-image: url('../images/illustration-editor-desktop.svg');
-        background-position: center;
-        background-size: cover;
+        display: none;
     }
     /*-------------------*/
     /*----- STATE -------*/
@@ -284,6 +305,7 @@ nav {
         padding: 20px;
         align-items: center;
         z-index: 10;
+        margin-bottom: 60px;
     }
     .background-state {
         position: relative;
@@ -301,8 +323,14 @@ nav {
     #laptop {
         display: flex;
         text-align: left;
+        background-image: url('../images/illustration-laptop-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top 0 left -275px;
+        height: 786px;
+        align-items: center;
     }
     .background-laptop {
+        display: none;
         background-image: url('../images/illustration-laptop-desktop.svg');
         background-size: cover;
     }
