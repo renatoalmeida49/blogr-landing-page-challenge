@@ -16,45 +16,47 @@
 </head>
 <body>
   <header id="header">
-    <img src="./assets/images/logo.svg" alt="Logo" width="101" height="40">
-    
-    <img src="./assets/images/icon-hamburger.svg" class="button-mobile" alt="Menu mobile">
-    <nav>
-      <ul>
-        <li>
-          Product
-          <ul>
-            Overview
-            Pricing
-            Marketplace
-            Features
-            Integrations
-          </ul>
-        </li>
-        <li>
-          Company
-          <ul>
-            About
-            Team
-            Blog
-            Careers
-          </ul>
-        </li>
-        <li>
-          Connect
-          <ul>
-            Contact
-            Newsletter
-            LinkedIn
-          </ul>
-        </li>
-      </ul>
+    <div class="container">
+      <img src="./assets/images/logo.svg" alt="Logo" width="101" height="40">
+      
+      <img src="./assets/images/icon-hamburger.svg" class="button-mobile" alt="Menu mobile">
+      <nav>
+        <ul class="menu">
+          <li>
+            Product <img src="./assets/images/icon-arrow-light.svg" alt="Arrow menu">
+            <ul class="submenu">
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </li>
+          <li>
+            Company <img src="./assets/images/icon-arrow-light.svg" alt="Arrow menu">
+            <ul class="submenu">
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </li>
+          <li>
+            Connect <img src="./assets/images/icon-arrow-light.svg" alt="Arrow menu">
+            <ul class="submenu">
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+        </ul>
 
-      <div>
-        <button>Login</button>
-        <button>Sign Up</button>
-      </div>
-    </nav>
+        <div>
+          <button class="signup login">Login</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <section id="home">
@@ -71,7 +73,7 @@
   </section>
   
   <section id="resume">
-    <h1 class="title">Designed for the future</h1>
+    <h1 class="title main">Designed for the future</h1>
 
     <div class="resume-content">
       <div class="design-background"></div>
