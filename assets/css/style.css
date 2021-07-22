@@ -88,6 +88,10 @@ nav {
     padding: 40px 20px;
     margin-bottom: 160px;
 }
+#resume .container {
+    flex-direction: column;
+    text-align: left;
+}
 #resume .title {
     color: hsl(208, 49%, 24%);
     font-size: 30px;
@@ -136,7 +140,6 @@ nav {
     background-size: cover;
     position: absolute;
     top: -160px;
-    left: 0px;
 }
 #state .title {
     font-size: 36px;
@@ -166,6 +169,9 @@ nav {
     background-position: center;
     margin-bottom: 40px;
 }
+#laptop .container {
+    flex-direction: column;
+}
 #laptop .title {
     color: hsl(208, 49%, 24%);
     font-size: 36px;
@@ -175,9 +181,6 @@ nav {
     color: hsl(207, 13%, 34%);
     line-height: 28px;
     padding: 20px;
-}
-#laptop .container-content {
-    margin-left: 50%;
 }
 /*-------------------*/
 /*----- FOOTER ------*/
@@ -288,8 +291,8 @@ nav {
         margin-bottom: 140px;
     }
     .resume-content {
-       
-        width: 100%;
+        align-self: flex-start;
+        width: 50%;
         max-width: 750px;
     }
     .design-background {
@@ -337,6 +340,9 @@ nav {
         display: none;
         background-image: url('../images/illustration-laptop-desktop.svg');
         background-size: cover;
+    }
+    #laptop .container-content {
+        margin-left: 50%;
     }
     /*-------------------*/
     /*----- FOOTER ------*/
